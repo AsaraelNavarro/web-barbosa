@@ -1,0 +1,154 @@
+.t-morena {
+  color: #9d2449;
+}
+
+.bg-black {
+  background-color: #292833;
+}
+
+.iniciativa {
+  padding-bottom: 18rem;
+}
+
+.container-video {
+  margin-top: -18rem;
+}
+
+.box-frase-big {
+  padding: 0.6rem;
+  border-left: 4px solid #9d2449;
+  margin: 2rem;
+}
+
+.box-frase-big p {
+  font-size: 2.2rem;
+}
+
+.figure-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  margin-bottom: 20px;
+}
+
+.svg-top-t path {
+  fill: #ffffff;
+}
+
+.svg-bottom-t {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.svg-bottom-t path {
+  fill: #ffffff;
+}
+
+.timeline {
+  width: 100%;
+  max-width: 800px;
+  background: #fff;
+  position: relative;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: calc(33% + 5px);
+  bottom: 0px;
+  width: 1px;
+  background: #9d2449;
+}
+
+.timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+}
+
+.entry .title {
+  color: #9d2449;
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  float: left;
+  width: 33%;
+  padding-right: 30px;
+  text-align: right;
+  position: relative;
+}
+
+.entry .title:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #9d2449;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 30%;
+  right: -12px;
+  z-index: 99;
+}
+
+.entry .title h3 {
+  margin: 0;
+  font-size: 120%;
+}
+
+.entry .title p {
+  margin: 0;
+  font-size: 100%;
+}
+
+.entry .body {
+  margin: 0 0 3em;
+  float: right;
+  width: 66%;
+  padding-left: 30px;
+}
+
+.entry .body p {
+  color: #9d2449;
+  font-size: 1.5rem;
+  line-height: 1.4em;
+}
+
+.entry .body p:first-child {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.entry .body span {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  padding-left: 0;
+  position: relative;
+}
+
+.entry .body span:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #9d2449;
+  background-color: #9d2449;
+  border-radius: 100%;
+  top: 6px;
+  left: -34px;
+  z-index: 99;
+}
+
+.bg-resultados {
+  background-image: url("../img/4-2.png");
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: -10% 4%;
+}
+/*# sourceMappingURL=layout-asa.css.map */

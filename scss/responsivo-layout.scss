@@ -1,0 +1,184 @@
+//Colores base
+$color-negro:#000000;
+$color-gris3:#333333;
+$color-gris6:#666666;
+$color-gris9:#999999;
+$color-grisC:#CCCCCC;
+$color-grisDE:#DEDEDE;
+$color-grisF4:#F4F4F4;
+$color-blanco:#FFFFFF;
+
+$color-back:#F6F6F6;
+$color-morena:#9D2449;
+$color-morena-2:#7F0C2F;
+
+$color-facebook:#5E75B2;
+$color-twitter:#00C2FF;
+$color-instagram:#6918B9;
+
+
+//Responsivo
+
+@media (min-width: 992px){
+    html{
+
+        body{
+
+            &.back-web{
+                background-size: contain;
+            }
+            
+        }
+    }
+
+    .slider-items{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 576px){
+
+    html{
+
+        body{
+
+            &.back-web{
+                background-position-x: -44rem;
+                background-size: 80rem;
+            }
+            
+        }
+    }
+
+
+    //svg
+    .svg-top{
+        position: absolute;
+        top:-22px;
+
+        path{
+            fill:$color-blanco;
+        }
+    }
+
+    .svg-bottom{
+        position: absolute;
+        bottom:-22px;
+        transform: rotate(180deg);
+
+        path{
+            fill:$color-blanco;
+        }
+    }
+
+    .navbar-custom{
+        background: transparent;
+        box-shadow: none;
+        background-color: $color-back;
+        box-shadow: 0 0 8px $color-grisC;
+
+        .navbar-toggler{
+            border:0;
+
+            i{
+                color:$color-morena;
+            }
+        }
+
+        .navbar-collapse{
+            background: $color-blanco;
+        }
+    }
+
+    .box-buscador{
+        position: relative;
+
+        span{
+            right: auto;
+            left: 0;
+        }
+
+        #buscador-noticias{
+            position: absolute;
+			right: 4rem;
+			top:0;
+
+            &.show{
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                width: 100%;
+                box-shadow: 0 0 6px #666;
+                z-index: 10;
+            }
+        }
+    }
+
+    .intro{
+
+        .box-logo{
+            display: none
+        }
+
+        .box-frase{
+            margin:11rem 0 0;
+            width: 60%;
+
+            p{
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .intro-2{
+
+        .cont-video-big{
+            height: 20rem;
+            margin-top:4rem;
+        }
+
+        .box-back{
+            height: 100%;
+        }
+    }
+
+    .noticias{
+        padding: 0;
+    }
+
+    .redes{
+        padding: 0;
+    }
+
+    .contacto{
+
+        .box-logo{
+            width: 80%;
+        }
+
+        &.part-2{
+
+            .box-logo{
+                margin-top:1rem;
+            }
+        }
+    }
+
+    .box-texto{
+        padding: 0;
+        margin-top: 5rem;
+    }
+
+}
+
+
+
